@@ -11,11 +11,11 @@ const AverageAge = ({ value }: AverageAgeProps) => {
     }
 
     const age = new Intl.NumberFormat("fr-Fr", {
-        style: "decimal", unit: "year", unitDisplay: "long", maximumFractionDigits: 0
+        style: "unit", unit: "year", unitDisplay: "long", maximumFractionDigits: 0
     }).format(YEAR - value);
 
     return (
-        <span className="text-bold text-large">{age} ans</span>
+        <span className="text-bold text-large">{age}</span>
     )
 }
 
