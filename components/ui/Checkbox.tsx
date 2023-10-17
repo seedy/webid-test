@@ -1,9 +1,9 @@
 "use client"
 
-import {ComponentPropsWithoutRef, ElementRef, forwardRef} from "react"
-import {Root, Indicator} from "@radix-ui/react-checkbox"
+import { ComponentPropsWithoutRef, ElementRef, forwardRef } from "react"
+import { Root, Indicator } from "@radix-ui/react-checkbox"
 import { Check } from "lucide-react"
-import cn from "@/utils/cn"
+import cn from "utils/cn"
 
 
 const Checkbox = forwardRef<

@@ -1,5 +1,5 @@
 "use client"
-import { getAverage } from "@/api/average";
+import { getAverage } from "api/average";
 import AverageAgeError from "components/AverageAge/Error";
 import AverageAge from "components/AverageAge";
 import AverageAgeLoading from "components/AverageAge/Loading";
