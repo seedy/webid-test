@@ -1,9 +1,9 @@
 "use client"
 import { getAverage } from "@/api/average";
-import AverageAgeError from "@/components/AverageAge/Error";
-import AverageAge from "@/components/AverageAge";
-import AverageAgeLoading from "@/components/AverageAge/Loading";
-import UserCheckbox from "@/components/ui/UserCheckbox";
+import AverageAgeError from "components/AverageAge/Error";
+import AverageAge from "components/AverageAge";
+import AverageAgeLoading from "components/AverageAge/Loading";
+import UserCheckbox from "components/ui/UserCheckbox";
 import { useQuery } from "@tanstack/react-query";
 import Image from "next/image";
 import BirthdayCake from "public/birthday-cake-cake-svgrepo-com.svg";

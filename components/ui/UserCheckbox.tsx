@@ -1,5 +1,5 @@
 "use client"
-import Checkbox from "@/components/ui/Checkbox"
+import Checkbox from "components/ui/Checkbox"
 
 interface UserCheckboxProps extends User {
     onCheckedChange?: (checked: boolean | 'indeterminate', id: number) => void

@@ -1,5 +1,5 @@
-import Provider from "@/components/Provider";
-import UsersAndAverage from "@/components/UsersAndAverage";
+import Provider from "components/Provider";
+import UsersAndAverage from "components/UsersAndAverage";
 
 const getUsers = async () => {
   const res = await fetch("https://infallible-tereshkova-717266.netlify.app/.netlify/functions/server/users", { method: 'GET' });
